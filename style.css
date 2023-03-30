@@ -134,6 +134,7 @@ table, th, td {
 
 .body-about {
     background-color: white;
+    border-width: 5px;
     border-style: solid;
     border-top: 6px solid;
     border-color: rgb(158, 224, 158);
@@ -144,6 +145,7 @@ table, th, td {
 .body-art {
     background-color: white;
     border-style: solid;
+    border-width: 5px;
     border-color: rgb(212, 46, 129);
     border-top: 6px solid rgb(255, 199, 233);
 }
@@ -173,6 +175,7 @@ table, th, td {
 .body-latin {
     background-color: rgb(255, 248, 234);
     border-style: solid;
+    border-width: 5px;
     border-top: 6px solid;
     border-color: rgb(158, 193, 207);
 }
@@ -206,7 +209,8 @@ table, th, td {
 }
 
 .content-home h1 {
-    font-size: 45px;
+    font-size: 40px;
+    margin-top: 45px;
     margin-bottom: 43px;
 }
 
@@ -214,7 +218,7 @@ table, th, td {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
     line-height: 63.5px;
-    font-size: 30px;
+    font-size: 24px;
 
 }
 
@@ -278,7 +282,9 @@ table, th, td {
 
 .html-about {
     background-color: white;
-    background-image: url("assets/about_bg");
+    background-image: url("assets/about_bg.png");
+    background-size: 590px;
+    background-repeat: repeat;
 }
 
 .html-art {
@@ -453,7 +459,7 @@ table, th, td {
     float: right;
     background-color: rgb(254, 177, 68, .20);
     border-right: 5px solid rgb(254, 177, 68);
-    width: fit-content;
+    max-width: 550px;
     padding: 10px;
     padding-left: 30px;
     padding-right: 20px;
@@ -468,8 +474,13 @@ table, th, td {
     padding: 10px;
     padding-left: 20px;
     padding-right: 30px;
-    margin-top: 20px;
+    margin-top: 30px;
     margin-bottom: 30px;
+
+}
+
+#aboutme-three li {
+    padding-bottom: 10px;
 
 }
 
@@ -499,5 +510,8 @@ table, th, td {
     background-color: rgb(158, 224, 158);
 } 
 
+#player {
+    width: 100%;
 
+}
 
